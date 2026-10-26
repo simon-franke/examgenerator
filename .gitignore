@@ -1,0 +1,26 @@
+# Binaries
+/bin/
+/examgen
+*.exe
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Generated output
+*.tex
+!testdata/**/*.tex
+*.pdf
+!testdata/**/*.pdf
+
+# Local working directories, keep the folders but not their contents
+/sources/*
+!/sources/.gitkeep
+/input/*
+!/input/.gitkeep
+/output/*
+!/output/.gitkeep
+
+# OS / editor
+.DS_Store
